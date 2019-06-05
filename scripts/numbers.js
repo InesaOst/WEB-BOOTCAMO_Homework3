@@ -7,6 +7,8 @@ function Clear() {
 function Generate() {
         var StartingValue = parseInt(document.getElementById('StartingValue').value);
         var EndingValue = parseInt(document.getElementById('EndingValue').value);
+        var FizzValue = parseInt(document.getElementById('FizzValue').value);
+        var BuzzValue = parseInt(document.getElementById('BuzzValue').value);
 
         for (var i = StartingValue; i <= EndingValue; i++) {
                 var iDiv = document.createElement('div');
